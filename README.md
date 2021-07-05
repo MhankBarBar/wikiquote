@@ -34,7 +34,7 @@ $ pip3 install --upgrade wikiquote
 # ['The Lion King', 'Johannes Kepler', 'Rosa Parks']
 
 >>> wikiquote.supported_languages()
-# ['de', 'en', 'es', 'fr', 'he', 'it', 'pl', 'pt']
+# ['de', 'en', 'es', 'fr', 'he', 'it', 'pl', 'pt', 'id']
 
 ```
 
@@ -55,6 +55,7 @@ The `wikiquote` module currently supports the following languages:
 | Polish     | `pl`           |
 | Portuguese | `pt`           |
 | Spanish    | `es`           |
+| Indonesia  | `id`           |
 
 Use the `lang` parameter to specify the language (defaults to `en`):
 ```python
